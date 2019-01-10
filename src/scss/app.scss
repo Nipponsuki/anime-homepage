@@ -1,0 +1,22 @@
+@import 'base/variables';
+@import 'base/base';
+@import 'base/animations';
+@import 'base/normalize';
+@import 'base/preloader';
+@import 'base/typography';
+@import 'base/variables';
+
+
+
+@import 'helpers/mixins';
+
+
+@import 'sections/navbar';
+@import 'sections/header';
+@import 'sections/before-main';
+@import 'sections/main';
+@import 'sections/movies';
+@import 'sections/shows';
+@import 'sections/footer';
+
+

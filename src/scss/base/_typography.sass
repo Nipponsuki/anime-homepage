@@ -1,0 +1,101 @@
+.heading 
+    font-family: 'Britannic Bold', sans-serif
+    text-align: center
+    margin-top: 10rem 
+    margin-bottom: .5rem
+    margin-left: auto
+    margin-right: auto
+
+    &--normal
+        font-family: 'Britannic Bold', sans-serif
+        text-align: center
+
+
+
+    @media (max-width: 1000px)
+        margin-top: 4rem
+
+.icons  
+    width: 2rem
+    height: 2rem
+    fill: $color-primary
+    transition: all .3s ease-in
+    cursor: pointer
+
+    &:hover
+        transform: scale(1.2)
+        fill: #fff
+    
+	
+
+
+
+.bookmarked
+        border: 2px solid skyblue
+        border-radius: 50%
+        padding: .2rem
+.cta 
+    padding: .9rem
+    background-color: #000
+    fill: #fff
+    width: 4.5rem
+    height: 3rem
+    transition: all .3s ease-in
+
+
+    @media only screen and (max-width: 750px) 
+        padding: .4rem .2rem
+
+    &:hover
+        fill: skyblue
+        transform: scale(1.03)
+
+
+    
+
+
+
+
+a 
+    color: $color-primary
+    text-decoration: none
+    text-transform: uppercase
+    transition: all .3s ease-in
+    cursor: pointer
+
+    &:hover
+        transform: scale(1.05)
+ 
+
+    &:link,
+    &:active,
+    &:visited
+        color: $color-primary
+
+    &.none-active 
+
+        color: $color-primary-light
+        text-decoration: none
+        text-transform: uppercase
+        transition: all .3s ease-in
+        cursor: pointer
+
+        &:hover
+            transform: scale(1.05)
+    
+
+        &:link,
+        &:active,
+        &:visited
+            color: $color-primary-light
+
+    
+    
+.active
+    color: $color-primary
+
+.none-active
+    color: $color-primary-light
+
+
+

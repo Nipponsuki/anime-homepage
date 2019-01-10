@@ -1,0 +1,42 @@
+section.movies(data-aos="fade-in")
+	.movies__links
+		a(href='#').movies__link.latest.active Latest Releases
+		a(href='#').movies__link.cs.active Coming soon
+		a(href='#').movies__link.inth.active In theaters
+		a(href='#').movies__link.ath.active At home
+	
+	.movies__wrapper
+		.text
+			h2.text__heading.active Discover new movies
+			p.text__paragraph.active On the big screen and at home
+		.card 
+			img(src="assets/images/latest-1.jpg?noresize").card__img
+			h2.card__title.active Fate/Stay Night <br/>Heaven’s Feel
+			p.card__text.none-active In Theaters August 18
+		.card 
+			img(src="assets/images/latest-2.jpg?noresize").card__img
+			h2.card__title.active Kizumonogatari <br/>Part 3
+			p.card__text.none-active In Theaters October 10
+		.card 
+			img(src="assets/images/latest-3.jpg?noresize").card__img
+			h2.card__title.active No Game No <br/>Life Zero
+			p.card__text.none-active In Theaters September 04
+		.card 
+			img(src="assets/images/latest-4.jpg?noresize").card__img
+			h2.card__title.active Sword Art Online: <br/>Ordinal Scale
+			p.card__text.none-active In Theaters August 20
+		.movies-arrows
+				svg.movies-arrows__l.icons.cta
+						use(xlink:href='assets/images/symbol-defs.svg#icon-arrow-left2')
+				svg.movies-arrows__r.icons.cta
+						use(xlink:href='assets/images/symbol-defs.svg#icon-arrow-right2')
+		.slider-controller.movies
+				.slider-controller__dot.current.movies
+				.slider-controller__dot
+				.slider-controller__dot
+	.news.movies
+			svg.news__icon.movies.icons
+				use(xlink:href='assets/images/symbol-defs.svg#icon-film')
+			a(href='#').news__link.movies.active Browse more movies
+
+
